@@ -134,6 +134,22 @@
         filter: brightness(1.1);
     }
 
+    /* Make all links use the lighter blue on hover */
+    a:hover {
+        color: #4040C0 !important;
+    }
+
+    /* Update btn-success background to use the new blue color */
+    .btn-success {
+        background-color: #000090;
+        border-color: #000090;
+    }
+
+    .btn-success:hover {
+        background-color: #4040C0;
+        border-color: #4040C0;
+    }
+
     /* Badge Enhancements */
     .badge-pulse {
         animation: pulse 2s infinite;

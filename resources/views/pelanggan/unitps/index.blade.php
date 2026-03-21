@@ -92,15 +92,15 @@
                                                 data-name="{{ $unit->name }}"
                                                 data-price="{{ $unit->price_per_hour }}"
                                                 data-price_type="per_jam"
-                                                style="padding: 0.375rem 0.75rem; color: #0652DD; border-color: #0652DD;"
-                                                onmouseover="this.style.backgroundColor='#0652DD'; this.style.color='white';"
-                                                onmouseout="this.style.backgroundColor=''; this.style.color='#0652DD';">
+                                                style="padding: 0.375rem 0.75rem; color: #000090; border-color: #000090;"
+                                                onmouseover="this.style.backgroundColor='#000090'; this.style.color='white';"
+                                                onmouseout="this.style.backgroundColor=''; this.style.color='#000090';">
                                                 <i class="bi bi-cart"></i>
                                             </button>
                                             <a href="{{ route('pelanggan.rentals.create') }}?type=unitps&id={{ $unit->id }}" class="btn btn-sm btn-primary flex-grow-1"
-                                               style="background-color: #0652DD; border-color: #0652DD;"
-                                               onmouseover="this.style.backgroundColor='#032a8a'; this.style.borderColor='#032a8a';"
-                                               onmouseout="this.style.backgroundColor='#0652DD'; this.style.borderColor='#0652DD';">
+                                               style="background-color: #000090; border-color: #000090;"
+                                               onmouseover="this.style.backgroundColor='#4040C0'; this.style.borderColor='#4040C0';"
+                                               onmouseout="this.style.backgroundColor='#000090'; this.style.borderColor='#000090';">
                                                 Sewa
                                             </a>
                                         </div>

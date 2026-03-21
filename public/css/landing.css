@@ -1,8 +1,8 @@
 /* PlayStation Landing Page Design */
 :root {
-    --ps-blue-dark: #003087;
-    --ps-blue: #00439c;
-    --ps-blue-light: #0070d1;
+    --ps-blue-dark: #000090;
+    --ps-blue: #000090;
+    --ps-blue-light: #000090;
     --ps-black: #050505;
     --ps-dark-gray: #1f1f1f;
     --text-primary: #ffffff;
@@ -169,13 +169,13 @@ body {
 .btn-primary {
     background: var(--ps-blue-light);
     color: white;
-    box-shadow: 0 4px 15px rgba(0, 112, 209, 0.4);
+    box-shadow: 0 4px 15px rgba(0, 0, 144, 0.4);
 }
 
 .btn-primary:hover {
-    background: var(--ps-blue);
+    background: #4040C0;
     transform: translateY(-2px);
-    box-shadow: 0 8px 25px rgba(0, 112, 209, 0.6);
+    box-shadow: 0 8px 25px rgba(64, 64, 192, 0.6);
 }
 
 .btn-secondary {

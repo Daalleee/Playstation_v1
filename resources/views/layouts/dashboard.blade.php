@@ -13,13 +13,13 @@
         :root {
             /* Light Theme Palette */
             --bg-light: #F5F6FA;      /* Abu Sangat Terang - Global Container */
-            --sidebar-bg: #0652DD;    /* Warna biru - Blue for sidebar */
-            --sidebar-hover-bg: #0652DD; /* Warna biru - Same blue for sidebar hover */
+            --sidebar-bg: #000090;    /* Dark blue for sidebar */
+            --sidebar-hover-bg: #000090; /* Dark blue for sidebar hover */
             --card-bg: #FFFFFF;       /* Putih Murni - White for card background */
             --card-border: #E5E7EB;   /* Abu Border Tipis - Light gray for borders */
 
-            --primary: #0652DD;       /* Warna biru - Blue as main */
-            --primary-hover: #0652DD; /* Warna biru - Same blue for hover */
+            --primary: #000090;       /* Dark blue as main */
+            --primary-hover: #4040C0; /* Lighter blue for hover */
             --secondary: #06b6d4;     /* Cyan 500 */
 
             --text-main: #000000;     /* HITAM MURNI - Main text color */
@@ -87,7 +87,7 @@
         .logo-icon {
             min-width: 28px;
             height: 28px;
-            background: #0652DD;
+            background: #000090;
             border-radius: 6px;
             display: flex;
             align-items: center;
@@ -143,13 +143,13 @@
 
         .nav-link:hover {
             color: white;
-            background: #0652DD; /* Same blue color as base */
+            background: #4040C0; /* Lighter blue for hover */
             transform: translateX(4px);
         }
 
         .nav-link.active {
             color: white;
-            background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), #0652DD; /* More darkening overlay without changing base color */
+            background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), #000090; /* More darkening overlay without changing base color */
             font-weight: 600;
         }
 
@@ -258,7 +258,7 @@
         }
 
         .toggle-btn:hover {
-            background: #0652DD;
+            background: #000090;
             color: white;
         }
 
@@ -358,10 +358,27 @@
             color: white;
             font-weight: 600;
         }
-        
+
         .btn-primary:hover {
-            background-color: var(--primary-hover);
-            border-color: var(--primary-hover);
+            background-color: #4040C0;
+            border-color: #4040C0;
+        }
+
+        /* Make all links use the lighter blue on hover */
+        a:hover {
+            color: #4040C0 !important;
+        }
+
+        /* Update success buttons to use the same blue color */
+        .btn-success {
+            background-color: var(--primary);
+            border-color: var(--primary);
+            color: white;
+        }
+
+        .btn-success:hover {
+            background-color: #4040C0;
+            border-color: #4040C0;
         }
 
         /* Pagination Styles */

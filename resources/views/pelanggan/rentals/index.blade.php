@@ -132,7 +132,7 @@
                                 @endif
                             </td>
                             <td>
-                                <a href="{{ route('pelanggan.rentals.show', $rental) }}" class="btn btn-sm" style="color: #FFFFFF; background-color: #0652DD; border-color: #0652DD;">
+                                <a href="{{ route('pelanggan.rentals.show', $rental) }}" class="btn btn-sm" style="color: #FFFFFF; background-color: #000090; border-color: #000090;">
                                     <i class="bi bi-eye me-1"></i> Detail
                                 </a>
                             </td>

@@ -10,7 +10,7 @@
                 <span class="text-muted fs-6 ms-2">ID: {{ $rental->kode ?? $rental->id }}</span>
             </h4>
         </div>
-        <a href="{{ route('kasir.rentals.index') }}" class="btn btn-sm rounded-pill px-3" style="color: #0652DD; border: 1px solid #0652DD; background-color: transparent;" onmouseover="this.style.backgroundColor='#0652DD'; this.style.color='white';" onmouseout="this.style.backgroundColor='transparent'; this.style.color='#0652DD';">
+        <a href="{{ route('kasir.rentals.index') }}" class="btn btn-sm rounded-pill px-3" style="color: #000090; border: 1px solid #000090; background-color: transparent;" onmouseover="this.style.backgroundColor='#000090'; this.style.color='white';" onmouseout="this.style.backgroundColor='transparent'; this.style.color='#000090';">
             <i class="bi bi-arrow-left me-1"></i>Kembali
         </a>
     </div>

@@ -3,7 +3,7 @@
 @section('pelanggan_content')
 <div class="container-fluid">
     <!-- Hero Section -->
-    <div class="text-center py-5 mb-5 rounded-4 position-relative overflow-hidden" style="background: #0652DD; border: 1px solid #E5E7EB;">
+    <div class="text-center py-5 mb-5 rounded-4 position-relative overflow-hidden" style="background: #000090; border: 1px solid #E5E7EB;">
         <div class="position-relative z-1">
             <h2 class="fw-bold display-5 mb-3" style="color: white;">Selamat Datang, {{ Auth::user()->name }}!</h2>
             <p class="lead mb-0" style="max-width: 600px; margin: 0 auto; color: white;">
@@ -21,7 +21,7 @@
                 </h4>
             </div>
             <div class="position-absolute end-0 top-50 translate-middle-y">
-                <a href="{{ route('pelanggan.unitps.index') }}" class="btn btn-sm rounded-pill px-3" style="color: #0652DD; border: 1px solid #0652DD; background-color: transparent;" onmouseover="this.style.backgroundColor='#0652DD'; this.style.color='white';" onmouseout="this.style.backgroundColor='transparent'; this.style.color='#0652DD';">Lihat Semua</a>
+                <a href="{{ route('pelanggan.unitps.index') }}" class="btn btn-sm rounded-pill px-3" style="color: #000090; border: 1px solid #000090; background-color: transparent;" onmouseover="this.style.backgroundColor='#000090'; this.style.color='white';" onmouseout="this.style.backgroundColor='transparent'; this.style.color='#000090';">Lihat Semua</a>
             </div>
         </div>
 
@@ -68,15 +68,15 @@
                                         data-name="{{ $unit->name }}"
                                         data-price="{{ $unit->price_per_hour }}"
                                         data-price_type="per_jam"
-                                        style="padding: 0.375rem 0.75rem; color: #0652DD; border-color: #0652DD;"
-                                        onmouseover="this.style.backgroundColor='#0652DD'; this.style.color='white';"
-                                        onmouseout="this.style.backgroundColor=''; this.style.color='#0652DD';">
+                                        style="padding: 0.375rem 0.75rem; color: #000090; border-color: #000090;"
+                                        onmouseover="this.style.backgroundColor='#000090'; this.style.color='white';"
+                                        onmouseout="this.style.backgroundColor=''; this.style.color='#000090';">
                                         <i class="bi bi-cart"></i>
                                     </button>
                                     <a href="{{ route('pelanggan.rentals.create') }}?type=unitps&id={{ $unit->id }}" class="btn btn-sm btn-primary flex-grow-1"
-                                       style="background-color: #0652DD; border-color: #0652DD;"
-                                       onmouseover="this.style.backgroundColor='#032a8a'; this.style.borderColor='#032a8a';"
-                                       onmouseout="this.style.backgroundColor='#0652DD'; this.style.borderColor='#0652DD';">
+                                       style="background-color: #000090; border-color: #000090;"
+                                       onmouseover="this.style.backgroundColor='#4040C0'; this.style.borderColor='#4040C0';"
+                                       onmouseout="this.style.backgroundColor='#000090'; this.style.borderColor='#000090';">
                                         Sewa
                                     </a>
                                 </div>
@@ -103,7 +103,7 @@
                 </h4>
             </div>
             <div class="position-absolute end-0 top-50 translate-middle-y">
-                <a href="{{ route('pelanggan.games.index') }}" class="btn btn-sm rounded-pill px-3" style="color: #0652DD; border: 1px solid #0652DD; background-color: transparent;" onmouseover="this.style.backgroundColor='#0652DD'; this.style.color='white';" onmouseout="this.style.backgroundColor='transparent'; this.style.color='#0652DD';">Lihat Semua</a>
+                <a href="{{ route('pelanggan.games.index') }}" class="btn btn-sm rounded-pill px-3" style="color: #000090; border: 1px solid #000090; background-color: transparent;" onmouseover="this.style.backgroundColor='#000090'; this.style.color='white';" onmouseout="this.style.backgroundColor='transparent'; this.style.color='#000090';">Lihat Semua</a>
             </div>
         </div>
 
@@ -145,15 +145,15 @@
                                         data-name="{{ $game->judul }}"
                                         data-price="{{ $game->harga_per_hari }}"
                                         data-price_type="per_hari"
-                                        style="padding: 0.375rem 0.75rem; color: #0652DD; border-color: #0652DD;"
-                                        onmouseover="this.style.backgroundColor='#0652DD'; this.style.color='white';"
-                                        onmouseout="this.style.backgroundColor=''; this.style.color='#0652DD';">
+                                        style="padding: 0.375rem 0.75rem; color: #000090; border-color: #000090;"
+                                        onmouseover="this.style.backgroundColor='#000090'; this.style.color='white';"
+                                        onmouseout="this.style.backgroundColor=''; this.style.color='#000090';">
                                         <i class="bi bi-cart"></i>
                                     </button>
                                     <a href="{{ route('pelanggan.rentals.create') }}?type=game&id={{ $game->id }}" class="btn btn-sm btn-primary flex-grow-1"
-                                       style="background-color: #0652DD; border-color: #0652DD;"
-                                       onmouseover="this.style.backgroundColor='#032a8a'; this.style.borderColor='#032a8a';"
-                                       onmouseout="this.style.backgroundColor='#0652DD'; this.style.borderColor='#0652DD';">
+                                       style="background-color: #000090; border-color: #000090;"
+                                       onmouseover="this.style.backgroundColor='#4040C0'; this.style.borderColor='#4040C0';"
+                                       onmouseout="this.style.backgroundColor='#000090'; this.style.borderColor='#000090';">
                                         Sewa
                                     </a>
                                 </div>
@@ -180,7 +180,7 @@
                 </h4>
             </div>
             <div class="position-absolute end-0 top-50 translate-middle-y">
-                <a href="{{ route('pelanggan.accessories.index') }}" class="btn btn-sm rounded-pill px-3" style="color: #0652DD; border: 1px solid #0652DD; background-color: transparent;" onmouseover="this.style.backgroundColor='#0652DD'; this.style.color='white';" onmouseout="this.style.backgroundColor='transparent'; this.style.color='#0652DD';">Lihat Semua</a>
+                <a href="{{ route('pelanggan.accessories.index') }}" class="btn btn-sm rounded-pill px-3" style="color: #000090; border: 1px solid #000090; background-color: transparent;" onmouseover="this.style.backgroundColor='#000090'; this.style.color='white';" onmouseout="this.style.backgroundColor='transparent'; this.style.color='#000090';">Lihat Semua</a>
             </div>
         </div>
 
@@ -222,15 +222,15 @@
                                         data-name="{{ $acc->nama }}"
                                         data-price="{{ $acc->harga_per_hari }}"
                                         data-price_type="per_hari"
-                                        style="padding: 0.375rem 0.75rem; color: #0652DD; border-color: #0652DD;"
-                                        onmouseover="this.style.backgroundColor='#0652DD'; this.style.color='white';"
-                                        onmouseout="this.style.backgroundColor=''; this.style.color='#0652DD';">
+                                        style="padding: 0.375rem 0.75rem; color: #000090; border-color: #000090;"
+                                        onmouseover="this.style.backgroundColor='#000090'; this.style.color='white';"
+                                        onmouseout="this.style.backgroundColor=''; this.style.color='#000090';">
                                         <i class="bi bi-cart"></i>
                                     </button>
                                     <a href="{{ route('pelanggan.rentals.create') }}?type=accessory&id={{ $acc->id }}" class="btn btn-sm btn-primary flex-grow-1"
-                                       style="background-color: #0652DD; border-color: #0652DD;"
-                                       onmouseover="this.style.backgroundColor='#032a8a'; this.style.borderColor='#032a8a';"
-                                       onmouseout="this.style.backgroundColor='#0652DD'; this.style.borderColor='#0652DD';">
+                                       style="background-color: #000090; border-color: #000090;"
+                                       onmouseover="this.style.backgroundColor='#4040C0'; this.style.borderColor='#4040C0';"
+                                       onmouseout="this.style.backgroundColor='#000090'; this.style.borderColor='#000090';">
                                         Sewa
                                     </a>
                                 </div>

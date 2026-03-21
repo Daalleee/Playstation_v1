@@ -1,8 +1,8 @@
 /* Modern Auth Design - PlayStation Theme - White Theme */
 :root {
-    --ps-blue-dark: #003087;
-    --ps-blue: #00439c;
-    --ps-blue-light: #0070d1;
+    --ps-blue-dark: #000090;
+    --ps-blue: #000090;
+    --ps-blue-light: #000090;
     --ps-black: #050505;
     --ps-dark-gray: #1f1f1f;
     --bg-primary: #ffffff;
@@ -13,7 +13,7 @@
     --border-color: #e1e5e9;
     --input-bg: #ffffff;
     --input-border: #d1d5db;
-    --input-focus: #0070d1;
+    --input-focus: #000090;
     --error: #ef4444;
     --success: #10b981;
     --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
@@ -276,7 +276,7 @@ body.auth-page {
 }
 
 .auth-link:hover {
-    color: #4da3ff;
+    color: #3333b3;
     text-decoration: underline;
 }
 
@@ -300,13 +300,13 @@ body.auth-page {
 .btn-primary-auth {
     background: linear-gradient(135deg, var(--ps-blue), var(--ps-blue-dark));
     color: white;
-    box-shadow: 0 4px 15px rgba(0, 67, 156, 0.3);
+    box-shadow: 0 4px 15px rgba(0, 0, 144, 0.3);
 }
 
 .btn-primary-auth:hover {
     transform: translateY(-2px);
-    box-shadow: 0 8px 25px rgba(0, 67, 156, 0.4);
-    background: linear-gradient(135deg, var(--ps-blue-light), var(--ps-blue));
+    box-shadow: 0 8px 25px rgba(64, 64, 192, 0.4);
+    background: linear-gradient(135deg, #4040C0, #4040C0);
 }
 
 .btn-primary-auth:active {
@@ -332,9 +332,9 @@ body.auth-page {
 }
 
 .btn-google:hover {
-    background: linear-gradient(135deg, var(--ps-blue-light), var(--ps-blue));
+    background: linear-gradient(135deg, #4040C0, #4040C0);
     transform: translateY(-2px);
-    box-shadow: 0 8px 25px rgba(0, 67, 156, 0.4);
+    box-shadow: 0 8px 25px rgba(64, 64, 192, 0.4);
 }
 
 .btn-google img {
