@@ -27,113 +27,113 @@
 Semua screenshot interface aplikasi tersimpan di folder:
 
 ```
-public/storage/screenshots/
+docs/screenshots/
 ```
 
-> **Note:** Jika gambar tidak muncul, pastikan Anda sudah menjalankan `php artisan storage:link` dan file screenshot sudah ada di folder `public/storage/screenshots/`.
+> **Note:** Jika gambar tidak muncul, pastikan Anda sudah menjalankan `php artisan storage:link` dan file screenshot sudah ada di folder `docs/screenshots/`.
 
 ---
 
 ### Authentication
 
 #### Login Page
-![Login Page](public/storage/screenshots/halaman-login.png)
+![Login Page](docs/screenshots/halaman-login.png)
 
 #### Register Page
-![Register Page 1](public/storage/screenshots/halaman-register1.png)
-![Register Page 2](public/storage/screenshots/halaman-register2.png)
+![Register Page 1](docs/screenshots/halaman-register1.png)
+![Register Page 2](docs/screenshots/halaman-register2.png)
 
 ---
 
 ### Public / Landing
 
 #### Landing Page
-![Landing Page](public/storage/screenshots/h.png)
+![Landing Page](docs/screenshots/h.png)
 
 ---
 
 ### Admin
 
 #### Dashboard Admin
-![Dashboard Admin](public/storage/screenshots/dashboard-admin.png)
+![Dashboard Admin](docs/screenshots/dashboard-admin.png)
 
 #### Laporan Admin
-![Laporan Admin](public/storage/screenshots/laporan-admin.png)
+![Laporan Admin](docs/screenshots/laporan-admin.png)
 
 #### Manajemen Unit PS
-![Tambah Unit PS Admin](public/storage/screenshots/tambah-unit-ps-admin.png)
+![Tambah Unit PS Admin](docs/screenshots/tambah-unit-ps-admin.png)
 
 #### Manajemen Game
-![Tambah Game Admin](public/storage/screenshots/tambah-game-admin.png)
+![Tambah Game Admin](docs/screenshots/tambah-game-admin.png)
 
 #### Manajemen Aksesoris
-![Tambah Aksesoris Admin](public/storage/screenshots/tambah-aksesoris-admin.png)
+![Tambah Aksesoris Admin](docs/screenshots/tambah-aksesoris-admin.png)
 
 #### Manajemen User
-![Tambah Admin](public/storage/screenshots/tambah-akun admin.png)
-![Tambah Kasir](public/storage/screenshots/tambah-kasir-admin.png)
-![Tambah Pelanggan](public/storage/screenshots/tambah-pelanggan-admin.png)
-![Tambah Pemilik](public/storage/screenshots/tambah-pemilik-admin.png)
+![Tambah Admin](docs/screenshots/tambah-akun admin.png)
+![Tambah Kasir](docs/screenshots/tambah-kasir-admin.png)
+![Tambah Pelanggan](docs/screenshots/tambah-pelanggan-admin.png)
+![Tambah Pemilik](docs/screenshots/tambah-pemilik-admin.png)
 
 ---
 
 ### Kasir
 
 #### Dashboard Kasir
-![Dashboard Kasir](public/storage/screenshots/halaman-dashboard-kasir.png)
+![Dashboard Kasir](docs/screenshots/halaman-dashboard-kasir.png)
 
 #### Transaksi Rental
-![Transaksi Kasir](public/storage/screenshots/halaman-transaksi-kasir.png)
+![Transaksi Kasir](docs/screenshots/halaman-transaksi-kasir.png)
 
 #### Daftar Sewa
-![Daftar Sewa Kasir](public/storage/screenshots/halaman-daftar-sewa-kasir.png)
+![Daftar Sewa Kasir](docs/screenshots/halaman-daftar-sewa-kasir.png)
 
 ---
 
 ### Pelanggan
 
 #### Dashboard / Beranda Pelanggan
-![Beranda Pelanggan 1](public/storage/screenshots/halaman-beranda-pelanggan.png)
-![Beranda Pelanggan 2](public/storage/screenshots/halaman-beranda-pelanggan2.png)
-![Beranda Pelanggan 3](public/storage/screenshots/halaman-beranda-pelanggan3.png)
-![Beranda Pelanggan 4](public/storage/screenshots/halaman-beranda-pelanggan4.png)
+![Beranda Pelanggan 1](docs/screenshots/halaman-beranda-pelanggan.png)
+![Beranda Pelanggan 2](docs/screenshots/halaman-beranda-pelanggan2.png)
+![Beranda Pelanggan 3](docs/screenshots/halaman-beranda-pelanggan3.png)
+![Beranda Pelanggan 4](docs/screenshots/halaman-beranda-pelanggan4.png)
 
 #### Sewa PlayStation
-![Sewa PS Pelanggan](public/storage/screenshots/halaman-sewa-ps-pelanggan.png)
-![Sewa PS2 Pelanggan](public/storage/screenshots/halaman-sewa-ps2-pelanggan.png)
+![Sewa PS Pelanggan](docs/screenshots/halaman-sewa-ps-pelanggan.png)
+![Sewa PS2 Pelanggan](docs/screenshots/halaman-sewa-ps2-pelanggan.png)
 
 #### Sewa Game
-![Sewa Game Pelanggan](public/storage/screenshots/halaman-sewa-game-pelanggan.png)
-![Sewa Game 2 Pelanggan](public/storage/screenshots/halaman-sewa-game2-pelanggan.png)
+![Sewa Game Pelanggan](docs/screenshots/halaman-sewa-game-pelanggan.png)
+![Sewa Game 2 Pelanggan](docs/screenshots/halaman-sewa-game2-pelanggan.png)
 
 #### Sewa Aksesoris
-![Sewa Aksesoris Pelanggan](public/storage/screenshots/halaman-sewa -aksesoris-pelanggan.png)
-![Sewa Aksesoris 2 Pelanggan](public/storage/screenshots/halaman-sewa -aksesoris2-pelanggan.png)
+![Sewa Aksesoris Pelanggan](docs/screenshots/halaman-sewa -aksesoris-pelanggan.png)
+![Sewa Aksesoris 2 Pelanggan](docs/screenshots/halaman-sewa -aksesoris2-pelanggan.png)
 
 #### Keranjang Belanja
-![Keranjang Pelanggan](public/storage/screenshots/halaman-keranjang-pelanggan.png)
+![Keranjang Pelanggan](docs/screenshots/halaman-keranjang-pelanggan.png)
 
 #### Riwayat Sewa
-![Riwayat Sewa Pelanggan](public/storage/screenshots/halaman-riwayat-sewa-pelanggan.png)
+![Riwayat Sewa Pelanggan](docs/screenshots/halaman-riwayat-sewa-pelanggan.png)
 
 #### Profil
-![Profil Saya Pelanggan](public/storage/screenshots/profil saya-pelanggan.png)
+![Profil Saya Pelanggan](docs/screenshots/profil saya-pelanggan.png)
 
 ---
 
 ### Owner / Pemilik
 
 #### Dashboard Pemilik
-![Dashboard Pemilik](public/storage/screenshots/halaman-beranda-pemilik.png)
+![Dashboard Pemilik](docs/screenshots/halaman-beranda-pemilik.png)
 
 #### Laporan Pendapatan
-![Laporan Pendapatan Pemilik](public/storage/screenshots/halaman-laporan-pendapatan-pemilik.png)
+![Laporan Pendapatan Pemilik](docs/screenshots/halaman-laporan-pendapatan-pemilik.png)
 
 #### Laporan Transaksi
-![Laporan Transaksi Pemilik](public/storage/screenshots/halaman-laporan transasksi-pemilik.png)
+![Laporan Transaksi Pemilik](docs/screenshots/halaman-laporan transasksi-pemilik.png)
 
 #### Status Unit
-![Status Unit Pemilik](public/storage/screenshots/halaman-status-unit-pemilik.png)
+![Status Unit Pemilik](docs/screenshots/halaman-status-unit-pemilik.png)
 
 ---
 
